@@ -1,0 +1,39 @@
+{
+  "name": "crale-react",
+  "version": "0.1.0",
+  "description": "Minimal starter kit: Create-React-App + Lerna + Electron starter kit",
+  "author": "Amaury Martiny <amaury.martiny@protonmail.com>",
+  "homepage": "./",
+  "private": true,
+  "scripts": {
+    "start": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo Skipped for now.",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0"
+  }
+}
